@@ -1,0 +1,19 @@
+{
+  "name": "vinyl-diff",
+  "version": "0.0.0",
+  "description": "Perform diffs of vinyl streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/basic-test.js"
+  },
+  "dependencies": {
+    "through2": "*"
+  },
+  "devDependencies": {
+    "tap": "*",
+    "vinyl-fs": "*",
+    "touch": "*"
+  },
+  "author": "",
+  "license": "MIT"
+}
